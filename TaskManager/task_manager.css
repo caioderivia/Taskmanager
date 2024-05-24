@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/024/165/157/original/galaxy-and-nebula-abstract-space-background-endless-universe-with-stars-and-galaxies-in-outer-space-cosmos-art-motion-design-free-video.jpg');
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    margin: 0;
+}
+
+#task-list {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#task-list h2 {
+    text-align: center;
+}
+
+#task-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#add-task-btn {
+    width: 107%;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #070000;
+    border: none;
+    cursor: pointer;
+}
+
+.task-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.task-item button {
+    background-color:#ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#menu {
+    background-color: #02172e; /* Background color for the menu */
+    color: #fff; /* Text color */
+}
+
+#menu ul {
+    list-style-type: none; /* Remove default list bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display menu items horizontally */
+}
+
+#menu li {
+    margin: 0 20px; /* Add spacing between menu items */
+}
+
+#menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+}

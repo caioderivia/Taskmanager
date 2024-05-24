@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/024/165/157/original/galaxy-and-nebula-abstract-space-background-endless-universe-with-stars-and-galaxies-in-outer-space-cosmos-art-motion-design-free-video.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: Montserrat;
+}
+#menu {
+    background-color: #02172e; 
+    color: #fff; 
+}
+
+#menu ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+#menu li {
+    margin: 0 20px; 
+}
+
+#menu a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-container form {
+    text-align: center;
+    max-width: 300px; 
+}

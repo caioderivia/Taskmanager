@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #02172e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+#menu {
+    background-color: #02172e; /* Background color for the menu */
+    color: #fff; /* Text color */
+}
+
+#menu ul {
+    list-style-type: none; /* Remove default list bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display menu items horizontally */
+}
+
+#menu li {
+    margin: 0 20px; /* Add spacing between menu items */
+}
+
+#menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+}
